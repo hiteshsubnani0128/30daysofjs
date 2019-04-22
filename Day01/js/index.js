@@ -14,12 +14,21 @@ function myEqual(){
     let n = document.getElementById('viewer').innerHTML;
     for(var i =0;i<abc.length;i++){
         if(abc[i][1]=='+'){
-            document.getElementById('viewer').innerHTML = parseInt(abc[i][0])+parseInt(abc[i+1][0])
+            document.getElementById('viewer').innerHTML = parseInt(abc[i][0])+parseInt(abc[i+1][0]);
     }
-    else if(abc[i][1]=='+'){
-        document.getElementById('viewer').innerHTML = parseInt(abc[i][0])+parseInt(abc[i+1][0])
+    else if(abc[i][1]=='-'){
+        document.getElementById('viewer').innerHTML = parseInt(abc[i][0])-parseInt(abc[i+1][0]);
     }
-    
+    else if(abc[i][1]=='*'){
+        document.getElementById('viewer').innerHTML = parseInt(abc[i][0])*parseInt(abc[i+1][0]);
+    }
+    else if(abc[i][1]=='/'){
+        document.getElementById('viewer').innerHTML = parseInt(abc[i][0])/parseInt(abc[i+1][0]);
+    }
+    else if(abc[i][1]=='%'){
+        document.getElementById('viewer').innerHTML = parseInt(abc[i][0])%parseInt(abc[i+1][0]);
+    }
+
 }
 }
 function mysum(sign){
