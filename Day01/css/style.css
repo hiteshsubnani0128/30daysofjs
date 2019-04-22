@@ -1,9 +1,14 @@
 body{
     margin: 0%;
     font-family: 'Ubuntu', sans-serif;
-    background-image: linear-gradient(red, yellow, blue);
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 h1{
     font-weight: 100;
     text-align: center;
+    color: white;
+    margin-top:10%; 
 }
