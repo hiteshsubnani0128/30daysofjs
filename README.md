@@ -7,9 +7,9 @@
 </p>
 
 ***
-<div style="text-align:center">
+<p align="center">
   <img src="30days.png" align="center" alt="30daysofjs">
-</div>
+</p>
 
 ## Want To Be a Contributor?
 Create different Projects daily using JavaScript.
