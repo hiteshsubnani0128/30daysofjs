@@ -1,9 +1,6 @@
 <h1 align="center">
   30daysofjs
 </h1>
-Working on small projects everyday to refine my knowledge of javascript .
-
-
 <p align="center">
   Working on small projects everyday to refine my knowledge of javascript . 💯💯
   <br />
