@@ -14,4 +14,5 @@
 ## Want To Be a Contributor?
 Create different Projects daily using JavaScript.
 
+Fork the Repository and Start adding your code by adding your name
 
